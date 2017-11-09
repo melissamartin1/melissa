@@ -1,13 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title><centre>BEAUTY AND THE BEAST</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-<h1>Beauty and the Beast</h1>
-<img src= id="first"pictures/batb.jpg" alt=" beautyandthebeast">
-<p>This is <strong>bold text</strong> and this will be <em>italic text</em></p>
-<p><a href="page2.html">beautyandthebeast</a></p>
-</body>
-</html>
+  <!DOCTYPE html>
+  <html>
+  <head>
+
+  <style>
+  .flex-container {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      text-align: center;
+  }
+
+  .flex-container > * {
+      padding: 15px;
+      -webkit-flex: 1 100%;
+      flex: 1 100%;
+  }
+
+  .article {
+      text-align: left;
+  }
+
+  header {background: purple;color:white;}
+  footer {background: purple;color:white;}
+  .nav {background:#eee;}
+
+  .nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  .nav ul a {
+      text-decoration: none;
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="flex-container">
+  <header>
+    <h1>FLORIDA</h1>
+  </header>
+
+  <nav class="nav">
+  <ul>
+    <li><a href="index.html">ThemeParks</a></li>
+    <li><a href="newfile2.html">Shopping</a></li>
+    <li><a href="newfile3.html">Places To Stay</a></li>
+  </ul>
+  </nav>
+<p><a href="http://www.visitorlando.com/things-to-do/theme-parks/">find out more</a></p>
+  <article class="article">
+    <h1>Theme Parks</h1>
+    <p>Visitors both young and young at heart can immerse themselves in the world's top theme parks right here in Orlando. From the classic Magic Kingdom Park at Walt Disney World Resort to The Wizarding World of Harry Potter at Universal Orlando Resort, there's a world for everyone to escape into! Experience a wonderland of ocean animals at SeaWorld Orlando.  Discover fun for the whole family at LEGOLAND Florida, one of Orlando's newest theme parks. Sneak a peek behind the scenes with VIP theme park experiences. The parks always have multiple new projects on the horizon, so even the most die-hard visitors to Orlando theme parks will always find new ways to create lasting memories, year after year!.</p>
+    <p>
+  </article>
+  <img src="pictures/dc.jpg" alt="dc"style="width:400px;height:400px;">
+</div>
+  </body>
+  </html>
